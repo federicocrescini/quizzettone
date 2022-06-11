@@ -1,0 +1,241 @@
++++
+È possibile indicare in tempo asintoticamente lineare
+> un array di reali nell'intervallo [0, 1] 1
+> un array di razionali dell'intervallo [1, 100] con numeratore limitato 0
+> un array di razionali nel'intervallo [0, 100]con denominatore limitato 0
+> un array di numeri complessi distribuiti uniformemente nel cerchio goniometrico 1
+> un array di voti di laurea 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> quick sort ordina in loco 1
+> bucket sort è stabile 1
+> radix sort ordina in loco 0
+> heap sort è stabile 0
+> merge sort è stabile ma non ordina in loco 1
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 8T(n/2)+n^3/2 è
+> O(n^3 * log(n)) 1
+> Ω(n * log^2 (n)) 0
+> O(n^2 * log(n)) 0
+> O(n^3) 0
+> θ(n^3 * (1+log n)) 1
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 4T(n/2)+4n^2 * √(n) è
+> O(log(n)) 0
+> Ω(n * log^2 (n)) 0
+> O(n^3 / log(n)) 0
+> O(n^3) 1
+> θ(5 * n^3) 1
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 27T(n/4) + n^2/2 è
+> O(log(n)) 0
+> Ω(n * log^2 (n)) 0
+> O(n^2 * log(n)) 0
+> O(n^3) 1
+> θ(5 * n^3) 1
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 2T(n/2)+ n/2 è
+> O(log(n)) 0
+> O(n) 0
+> O(n * log(n)) 1
+> O(n^2) 1
+> O(n^2 / log(n)) 1
+///
+---
+Il problema dell'ordinamento appartiene a
+> O(log(n)) 0
+> Ω(n) 1
+> θ(n * log(n)) 1
+> O(n^2) 1
+> Ω(n^2 / log(n)) 1
+///
+---
+Il problema della selezione dell'i-esimo elemento di un array appartiene a
+> O(log(n)) 0
+> Ω(n) 1
+> θ(n * log(n)) 1
+> O(n^2) 1
+> Ω(n^2 / log(n)) 1
+///
+---
+Il problema della selezione del mediano di un array non ordinato appartiene a
+> O(log(n)) 0
+> Ω(n) 1
+> θ(n * log(n)) 1
+> O(n^2) 1
+> Ω(n^2 / log(n)) 1
+///
+---
+Il problema dei cammini minimi con sorgente singola appartiene a
+> O(V+E) 0
+> Ω(V) 0
+> O((V+E) * log (V)) 1
+> O(V^3) 1
+> Ω(V^3) 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> l'algorimo di Prim si basa su una tecnica Greedy 1
+> il calcolo delle componenti fortemente connesse di un grafo appartiene ad Ω(V * log (V)) 1
+> il diametro di un grafo è finito se e solo se il grafo è connesso 1
+> è possibile rimuovere tutte le radici di uno heap binomiale in tempo O(log^2 n) 0
+> un grafo è rappresentabile con liste di adiacenza solo se è connesso 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> è possibile verificare se un grafo orientato è aciclico in θ(E) 0
+> l'algoritmo del simplesso viene usato per risolvere problemi di programmazione lineare 1
+> l'algoritmo di Dijkstra per i cammini minimi è applicabile solo se non esistono cicli negativi 1
+> l'algoritmo di Johnson per i cammini minimi tra tutte le coppie produce risposte corrette solo se applicato a grafi sparsi 0
+> le matrici di adiacenza non sono indicate per rappresentare grafi sparsi 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> è possibile verificare se un grafo orientato è aciclico in θ(V+E) 1
+> un grafo orientato è bipartito se e solo se la sua chiusura transitiva è bipartita 1
+> nella programmazione lineare il costo della soluzione del problema duale è sempre uguale al costo della soluzione del problema primale 1
+> le matrici di adiacenza sono particolarmente indicate per rappresentare grafi sparsi 0
+> è possibile verificare se un grafo non orientato è biartito in θ(V+E) 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> l'algorimto di Dijkstra per i cammini minimi è applicabile solo se non sistono cicli negativi 1
+> è possibile verificare se un grafo orientato è aciclico in θ(V^2) 1
+> l'algoritmo di Johnson per i cammini minimi tra tutte le coppie produce risposte corrette solo se applicato a grafi sparsi 0
+> non esistono algoritmi deterministici lineari per il problema della selezione 0
+> se bucket sort è applicabile, allora lo è anche radix sort 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> il problema della moltiplicazione di due matrici appartiene ad O(n^5) 1
+> quick sort funziona in tempo pessimo quadratico 1
+> è possibile unire due heap binomiali in tempo logaritmico 1
+> non esistono algoritmi deterministici lineari per il problema della selezione 0
+> è possibile verificare se un grafo orientato è aciclico in θ(E) 0
+///
+---
+È possibile ordinare un array di numeri complessi compresi tra 1 ed n^2 in
+> O(log (n)) 0
+> O(n) 1
+> O(n * log (n)) 1
+> O(n^2) 1
+> O(n^2 / log(n)) 1
+///
++++
+Bucket sort è applicabile se
+> i dati sono distribuiti uniformemente in un rettangolo di lato 10 1
+> i dati sono distribuiti uniformemente tra i naturali dell'intervallo [1, 100] 1
+> i dati sono distribuiti uniformemente nel cerchio goniometrico 1
+> i dati sono distribuiti nel piano cartesiano secondo una gaussiana 1
+> i dati sono distribuiti uniformemente tra i razionali dell'intervallo [0, 1] 1
+///
+---
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> è possibile ordinare un array di numeri razionali in tempo cubico 1
+> non è possibile ordinare in tempo lineare un array di razionali in [0, 10] con numeratore limitato 0
+> bucket sort non è stabile 0
+> heap sort ordina in loco 1
+> è possibile trovare il mediano di un array non ordinato in tempo logaritmico
+///
+---
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> quick sort non ordina in loco 0
+> bucket sort ordina in tempo lineare n array di interi distribuiti uniformemente in [0, 1] 1
+> heap sort ordina in loco 1
+> radix sort non è stabile 0
+> merge sort è stabile e ordina in O(n^2) 1
+///
+---
+La soluzione dell'equazione di ricorrenza T(n) = 4T(n/2) + n/2 è
+> O(log (n)) 0
+> O(n) 0
+> O(n * log (n)) 0
+> O(n^2) 1
+> θ(5 * n^2) 1
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 27T(n/3) + n^2 * log (n) / 2 è
+> O(log(n)) 0
+> Ω(n * log^2 (n)) 0
+> O(n^2 * log(n)) 0
+> O(n^3) 1
+> θ(5 * n^3) 1
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 10T(n/2) + n^3/2 è
+> O(log(n)) 0
+> Ω(n * log^2 (n)) 0
+> O(n^2 * log(n)) 0
+> O(n^3) 1
+> θ(5 * n^3) 1
+///
+---
+Il problema dell'ordinamento di un array appartiene a
+> O(log(n)) 0
+> Ω(n) 1
+> θ(n * log(n)) 1
+> O(n^2) 1
+> Ω(n^2 / log(n)) 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> bucket sort è applicabile solo quando i dati sono distribuiti uniformemente 1
+> se radix sort è applicabile, allora è applicabile anche counting sort 1
+> il problema dei cammini minimi ammette soluzione solo se non esistono cicli con un arco di costo negativo 1
+> l'algoritmo di Ford-Fulkerson funziona solo se non vi sono archi con capacità 0
+> in un RB-albero è possibile mantenere in tempo logaritmico un campo che indica il numero di nodi dell'intero albero con chiave minore alla chiave del nodo corrente 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> un albero di cammini minimi è un albero di copertura 1
+> la complessità dell'algoritmo di Floyd-Warshall è in Ω(V^2) 0
+> il problema dei cammini minimi ammette soluzione solo se non esistono cicli con un arco di costo negativo 1
+> la complessità della visita in ampiezza in un grafo completo è θ(V^2) 1
+> in un RB-albero è possibile mantenere in tempo logaritmico un campo Q[x] che indica il quadrato del numero di nodi del sottoalbero radicato in x 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> le matrici di adiacenza non possono essere usate per rappresentare grafi sparsi 0
+> se in un grafo orientato tutti gli archi hanno lo stesso peso, non negativo, allora i cammini minimi possono essere calcolati in tempo O(V+E) 0
+> un grafo con un solo arco è sempre bipartito 0
+> il problema del flusso massimo non può essere espresso come problema di programmazione lineare 0
+> l'algoritmo di Johnson per i cammini minimi tra tutte le coppie non funziona quando esistono archi negativi 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> in un grafo aciclico esiste al più un nodo che può raggiungere tutti gli altri nodi 1
+> la chiusura transitiva di un grafo aciclico è un grafo aciclico 1
+> se un grafo è orientato, allora la sua matrice di adiacenza è simmetrica 0
+> in una rete di flusso un flusso è massimo se e solo se non esistono tagli non saturi 0
+> se un algoritmo funziona sui grafi orietnati allora funziona anche su grafi non orientati 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> le matrici di adiacenza sono particolarmente indicate per rappresentare grafi sparsi 0
+> è possibile verificare se un grafo orientato è aciclico in θ(V^2 + E) 1
+> è possibile verificare se un grafo non orientato è bipartito in θ(V + E) 1
+> l'algoritmo di Dijkstra per i cammini minimi è applicabile quando non esistono cicli negativi 1
+> l'algoritmo di Johnson per i cammini minimi tra tutte le coppie produce risposte corrette anche se applicato a grafi sparsi 1
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> non esistono algoritmi probabilisticci lineari per il problema della selezione 0
+> la chiusura transitiva di un grafo aciclico è un grafo aciclico 1
+> se un grafo è orientato, allora la sua matrice di adiacenza è simmetrica 0
+> il problema della moltiplicazione di due matrici quadrate appartiene a O(n^2) 0
+> se bucket sort è applicabile, allora lo è anche radix sort 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> non esistono algoritmi probabilisticci lineari per il problema della selezione 0
+> la chiusura transitiva di un grafo aciclico è un grafo aciclico 1
+> se un grafo è orientato, allora la sua matrice di adiacenza è simmetrica 0
+> il problema della moltiplicazione di due matrici quadrate appartiene a O(n^2) 0
+> se bucket sort è applicabile, allora lo è anche radix sort 0
+///
+!!!
