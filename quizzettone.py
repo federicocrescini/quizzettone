@@ -13,7 +13,7 @@ def quit():
     exit()
 
 def stampa(x, c, r, t):
-    if c == 1:
+    if c == -1:
         os.system("clear") 
 
     if x == 'f':
@@ -27,10 +27,12 @@ def stampa(x, c, r, t):
     if x == 'a':
         print("╔════════════════════════════════════╗")
         print("║            ALGOTEST.py             ║")
+        print("║         scegli una modalità        ║")
         print("╚════════════════════════════════════╝")
         print()
         print("1) Simulazione esame")
         print("2) Sandbox")
+        print("3) Istruzioni")
         print("0) Uscita")
 
     if x =='e':
@@ -59,6 +61,10 @@ def stampa(x, c, r, t):
         print("║           -SANDBOX MENU-          ║")
         print("╚═══════════════════════════════════╝")
     
+    if x =='i':
+        print()
+        print("non fare la fighetta")
+
     if x == 'ms':
         print("Scegliere la tipologia di domande:")
         print("   1) V - F")
@@ -112,6 +118,7 @@ def quesito(mbs):
                     return r
                 l = f.readline()
         domanda = f.readline()
+        print("--------------------------------------")
         print(domanda)
         c = 0
         while True:
@@ -136,6 +143,7 @@ def sb(mbs):
     print("RISPOSTE: ")
     print("1 2 3 4 5")
     ris = input()
+    print()
     if '2' in ris:
         return -1, 0, 0
     i = 0
@@ -161,7 +169,7 @@ def fineRisposte(p, r, t, e):
         
         if x == 'N' or x =='n':
             print("next")
-            stampa("_",  1, 0, 0)
+            stampa("_", -1, 0, 0)
             #next
             return p
         if x == 'M' or x =='m':
@@ -181,10 +189,10 @@ def sandbox():
     p = -1
     while md != '0':
         if p == -1:
-            stampa('sb', 1, 0, 0)
+            stampa('sb', -1, 0, 0)
             stampa('ms', 0, 0, 0)
             md = input()
-            stampa('_', 1, 0, 0)
+            stampa('_', -1, 0, 0)
         if md == '1':
             p, giuste, tue = sb('+')
         if md == '2':
@@ -194,13 +202,13 @@ def sandbox():
         if md != '1' and md != '2' and md != '3':
             print("!!!Inserire un valore corretto!!!")
         if p == -1:
-            stampa('u', 1, 0, 0)
+            stampa('u', -1, 0, 0)
         else:
             p = fineRisposte(p, giuste, tue, 0)
     return           
     
 def esame():
-    stampa('e', 1, 0, 0)
+    stampa('e', -1, 0, 0)
     tuttetue  = [['/'] * 5 ] * 5
     tuttegiuste = [['/'] * 5 ] * 5
     
@@ -232,7 +240,7 @@ def esame():
         x = input("[N/M] ")
     
     if x == 'N' or x =='n':
-        stampa("_",  1, 0, 0)
+        stampa("_",  -1, 0, 0)
         return esame()
     
     if x == 'M' or x =='m':
@@ -242,23 +250,26 @@ def menu():
     if os.path.exists(filedaaprire) == False:
         print(" !!! Errore, file non letto !!! ")
         exit()
-    stampa('a', 1, 0, 0)
+    stampa('a', -1, 0, 0)
     while True:
-        scelta = input()
+        scelta = input("> ")
         
         if scelta == '0':
             quit()
-        if scelta == '1':
-            esame()
+        if scelta == '3':
+            stampa('i', 0, 0, 0)
         else:
-            if scelta == '2':
-                sandbox()
-            else :
-                if scelta == 'credit':
-                    credit()
-                else:
-                    print("Selezionare un'opzione valida")
-        stampa('a', 1, 0, 0)
+            if scelta == '1':
+                esame()
+            else:
+                if scelta == '2':
+                    sandbox()
+                else :
+                    if scelta == 'credit':
+                        credit()
+                    else:
+                        print("Selezionare un'opzione valida")
+            stampa('a', -1, 0, 0)
 
 
 filedaaprire = input("Nome / percorso del file con le domande: ")
