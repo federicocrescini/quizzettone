@@ -1,6 +1,12 @@
 # quizzettone
 Simulatore di esami, prende domande e risposte da un file per proporle in varie modalità
 
+lanciare il file con
+> python3 quizzettone.py
+
+inserire in input il nome del file strutturato come da README.md (o il suo percorso se eseguito in directory diverse)
+
+
 #### struttura file domande:
     le domande vengono lette da [tipologia] a '///' 
     il file termina con '!!!'
