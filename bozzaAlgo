@@ -1,0 +1,73 @@
+---
+Bucket Sort è applicabile se
+> i dati sono distribuiti uniformemente in un rettangolo di lato 10 0
+> i dati sono distribuiti uniformemente tra i naturali dell'interballo [1,100] 0
+> i dati sono distribuiti uniformemente nel cerchio goniometrico 0
+> i dati sono distribuiti nel piano cartesiano secondo una gaussiana 0
+> i dati sono distribuiti uniformemente tra i razionali dell'intervallo [0,1] 0
+///
+---
+La soluzione all'equazione di ricorrenza T(n)=4T(n/2)+n/2 è
+> O(log n) 0
+> O(n) 0
+> O(n log n) 0
+> O(n^2) 0
+> Ω(5n^2)  0
+///
+---
+Il problema della selezione del mediano di un array appartiene a
+> O(log n) 0
+> Ω(n) 0
+> θ(n log n)y 0
+> O(n^2) 0
+> Ω(n^2/log n) 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> un albero di cammini minimi è un albero di copertura 0
+> la complessità dell'algoritmo di Floyd-Warshall è in Ω(V^2) 0
+> il problema dei cammini minimi ammette soluzione solo se non esistono cicli con un arco di costo negativo 0
+> la complessità della visita in ampiezza in un grafo completo è θ(V^2) 0
+> in un RB-albero è possibile mantenere in tempo logaritmico un campo Q[x] che indica il quadrato del numero di nodi nel sottoalbero radicato di x 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> quick sort ordina in loco 0
+> bucker sort non è stabile 0
+> heap sort è stabile 0
+> radix sort ordina in loco 0
+> merge sort è stabile ma non ordina in loco 0
+///
+---
+La soluzione all'equazione di ricorrenza T(n) = 8T(n/2)+n^3/2 è
+> O(log n) 0
+> Ω(n) 0
+> θ(n log n) 0
+> O(n^2) 0
+> Ω(n^2/log n) 0
+///
+---
+Il problema della selezione del mediano di un array appartiene A
+> O(log n) 0
+> Ω(n) 0
+> θ(n log n) 0
+> O(n^2) 0
+> Ω(n^2/log 2) 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> le matrici di adiacenza sono particolarmente indicate per rappresentare grafi sparsi 0
+> è possibile verificare se un grafo orientato è aciclico in θ(V^2) 0
+> è possibile verificare se un grafo non orientato è bipartito in θ(V+E) 0
+> l'algoritmo di Dijkstra per i cammini minimi è applicabile solo se non esistono cicli negativi 0
+> l'algorimo di Johnson per i cammini minimi tra tutte le coppie produce risposte corrette solo se applicato a grafi sparsi 0
+///
++++
+Indicare la veridicità di ognuna delle seguenti affermazioni
+> non esistono algoritmi deterministici lineari per il problema della selezione 0
+> se bucket sort è applicabile, allora anche radix sort è applicabile 0
+> il problema della moltiplicazione di due matrici appartiene a O(n^5) 0
+> quick sort funziona in tempo pessimo quadratico 0
+> è possibile unire due heap binomiali in tempo lineare 0
+///
+!!!
